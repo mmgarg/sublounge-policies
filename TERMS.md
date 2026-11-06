@@ -1,6 +1,8 @@
 # SubLounge Terms and Conditions
 
-**Effective date: November 5, 2026**
+**Effective date: November 6, 2026**
+
+Please read these SubLounge-specific Terms and Conditions and the [SubLounge Privacy Policy](https://github.com/mmgarg/sublounge-policies/blob/main/PRIVACY.md) before joining a chat. They describe how messages are published and what information is processed.
 
 SubLounge is a community chat interface for Reddit communities. By using it, you agree to these terms and to Reddit's applicable terms and rules.
 
@@ -16,7 +18,7 @@ Use SubLounge in accordance with Reddit's User Agreement, Content Policy, and th
 
 ## Moderation and availability
 
-Community moderators may review reports and use Reddit moderation actions, including removing content or banning users, subject to their Reddit permissions. SubLounge does not guarantee that every report will result in action. Features may change or be unavailable, and Reddit may remove or restrict content or access under its own rules.
+Community moderators may review reports and use Reddit moderation actions, including removing content or banning users, subject to their Reddit permissions. Moderators may also lock a chat for non-moderators, set message limits and cooldowns, disable photo/GIF attachments, require minimum karma or account age, pin messages, and mark media or links as sensitive. A sensitive-media mark blurs the preview in SubLounge; it does not change Reddit's own content classification. SubLounge does not guarantee that every report will result in action. Features may change or be unavailable, and Reddit may remove or restrict content or access under its own rules.
 
 ## Third-party services
 
