@@ -9,15 +9,15 @@ This policy explains what SubLounge processes when you use its Reddit community 
 ## Information processed
 
 - **Reddit account and comments:** SubLounge uses the Reddit identity available to the app to submit a message as your account. Your username, comment text, timestamp, and Reddit comment link may be shown with the chat message.
-- **Chat support data:** To display recent chat history and support replies, mentions, reactions, and unread activity, SubLounge stores a limited copy of recent messages in Devvit Redis. Message records can include the author name, text, timestamp, Reddit comment permalink, flair, media URL, link, reply reference, reactions, pinned state, and a moderator-set sensitive-media label. The chat history is capped at 100 messages per chat; older entries are displaced as new messages arrive.
+- **Chat support data:** To display recent chat history and support replies, mentions, reactions, and unread activity, SubLounge stores a limited copy of recent messages in Devvit Redis. Message records can include the author name, text, timestamp, Reddit comment permalink, flair, media URL, link, reply reference, reactions, pinned state, and an author- or moderator-set NSFW label. The chat history is capped at 100 messages per chat; older entries are displaced as new messages arrive.
 - **Notifications and preferences:** SubLounge may store up to 50 recent mention or reply activity items per recipient, along with read state and the recipient's notification mute preference for that chat. Moderators can set a chat room title, which is stored for the Reddit post.
 - **Moderator controls and message labels:** Chat settings (such as lock, cooldown, message limits, attachment availability, and participation thresholds) are stored in Devvit Redis for the chat. Pin and sensitive-media labels are stored with the chat message. Minimum karma and account-age checks read the Reddit account’s public karma totals and creation date when the user sends a message; these values are used for the check and are not copied into the chat record.
 - **Local browser storage:** The app may use browser local storage for a first-use disclosure acknowledgement and local preference migration. This is not used for advertising or cross-site tracking.
-- **GIF search:** If you search for a GIF, the search phrase and the app's GIPHY API key are sent from the server to GIPHY. Your Reddit username and chat message are not included in that search request. Search results are supplied by GIPHY.
+- **GIF search:** If you search for a GIF, the search phrase and the app's KLIPY API key are used in a server request to KLIPY. Your Reddit username and chat message are not included in that request. Search results and selected GIF media are supplied by KLIPY.
 
 ## Where information goes
 
-Messages you send are published as Reddit comments from your Reddit account. Attached images and selected GIFs are uploaded to Reddit and included in the comment. Reddit processes and displays this content under its own policies. GIPHY receives GIF search phrases. SubLounge does not currently use advertising or third-party analytics.
+Messages you send are published as Reddit comments from your Reddit account. Attached images and selected GIFs are uploaded to Reddit and included in the comment. Reddit processes and displays this content under its own policies. KLIPY receives GIF search phrases. SubLounge does not currently use advertising or third-party analytics.
 
 SubLounge uses Devvit/Reddit infrastructure, including Redis, to operate the app. Data is available to Reddit and to the app's authorized services as needed to provide the feature. Community moderators may see chat content and reports and may use Reddit's moderation tools.
 
