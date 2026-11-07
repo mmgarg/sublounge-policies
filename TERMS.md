@@ -1,6 +1,6 @@
 # SubLounge Terms and Conditions
 
-**Effective date: November 6, 2026**
+**Effective date: November 7, 2026**
 
 Please read these SubLounge-specific Terms and Conditions and the [SubLounge Privacy Policy](https://github.com/mmgarg/sublounge-policies/blob/main/PRIVACY.md) before joining a chat. They describe how messages are published and what information is processed.
 
@@ -18,11 +18,11 @@ Use SubLounge in accordance with Reddit's User Agreement, Content Policy, and th
 
 ## Moderation and availability
 
-Community moderators may review reports and use Reddit moderation actions, including removing content or banning users, subject to their Reddit permissions. Moderators may also lock a chat for non-moderators, set message limits and cooldowns, disable photo/GIF attachments, require minimum karma or account age, pin messages, and mark media or links as sensitive. You may mark your own message as NSFW when sending it. These labels blur content in SubLounge; they do not change Reddit's own content classification. SubLounge does not guarantee that every report will result in action. Features may change or be unavailable, and Reddit may remove or restrict content or access under its own rules.
+Community moderators may review reports and use Reddit moderation actions, including removing content or banning users, subject to their Reddit permissions. Moderators may also lock a chat for non-moderators, set message limits and cooldowns, disable photo/GIF attachments or link sharing, require minimum karma or account age, pin messages, and mark media or links as sensitive. You may mark your own message as NSFW when sending it. These labels blur content in SubLounge; they do not change Reddit's own content classification. SubLounge does not guarantee that every report will result in action. Features may change or be unavailable, and Reddit may remove or restrict content or access under its own rules.
 
 ## Third-party services
 
-GIF search is provided by KLIPY. Searching sends the search phrase to KLIPY. When you choose and send a GIF, its media is uploaded to Reddit and included with your Reddit comment. Reddit and KLIPY handle their services under their own terms and policies.
+GIF search is provided by KLIPY. SubLounge is independently developed; it is not a KLIPY product and is not endorsed by KLIPY. The picker identifies KLIPY as the GIF provider. Searching sends the search phrase to KLIPY. When you choose and send a GIF, its media is uploaded to Reddit and included with your Reddit comment. Use of KLIPY is also subject to [KLIPY's API Terms](https://klipy.com/support/api-terms) and [Privacy Policy](https://klipy.com/support/privacy-policy); Reddit and KLIPY handle their services under their own terms and policies.
 
 ## Changes and contact
 

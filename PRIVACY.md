@@ -1,6 +1,6 @@
 # SubLounge Privacy Policy
 
-**Effective date: November 6, 2026**
+**Effective date: November 7, 2026**
 
 Please read this SubLounge-specific Privacy Policy together with the [SubLounge Terms and Conditions](https://github.com/mmgarg/sublounge-policies/blob/main/TERMS.md) before joining a chat. These documents explain the app’s posting flow, moderation features, and data handling.
 
@@ -13,11 +13,11 @@ This policy explains what SubLounge processes when you use its Reddit community 
 - **Notifications and preferences:** SubLounge may store up to 50 recent mention or reply activity items per recipient, along with read state and the recipient's notification mute preference for that chat. Moderators can set a chat room title, which is stored for the Reddit post.
 - **Moderator controls and message labels:** Chat settings (such as lock, cooldown, message limits, attachment availability, and participation thresholds) are stored in Devvit Redis for the chat. Pin and sensitive-media labels are stored with the chat message. Minimum karma and account-age checks read the Reddit account’s public karma totals and creation date when the user sends a message; these values are used for the check and are not copied into the chat record.
 - **Local browser storage:** The app may use browser local storage for a first-use disclosure acknowledgement and local preference migration. This is not used for advertising or cross-site tracking.
-- **GIF search:** If you search for a GIF, the search phrase and the app's KLIPY API key are used in a server request to KLIPY. Your Reddit username and chat message are not included in that request. Search results and selected GIF media are supplied by KLIPY.
+- **GIF search:** If you search for a GIF, the search phrase and the app's KLIPY API key are used in a server request to KLIPY. Your Reddit username and chat message are not included in that request. Search results and selected GIF media are supplied by KLIPY. See [KLIPY's Privacy Policy](https://klipy.com/support/privacy-policy) for how KLIPY handles information it receives through its services.
 
 ## Where information goes
 
-Messages you send are published as Reddit comments from your Reddit account. Attached images and selected GIFs are uploaded to Reddit and included in the comment. Reddit processes and displays this content under its own policies. KLIPY receives GIF search phrases. SubLounge does not currently use advertising or third-party analytics.
+Messages you send are published as Reddit comments from your Reddit account. Attached images and selected GIFs are uploaded to Reddit and included in the comment. Reddit processes and displays this content under its own policies. KLIPY receives GIF search phrases and supplies GIF search results under its own [API Terms](https://klipy.com/support/api-terms) and [Privacy Policy](https://klipy.com/support/privacy-policy). SubLounge is independently developed and is not a KLIPY product or endorsement. SubLounge does not currently use advertising or third-party analytics.
 
 SubLounge uses Devvit/Reddit infrastructure, including Redis, to operate the app. Data is available to Reddit and to the app's authorized services as needed to provide the feature. Community moderators may see chat content and reports and may use Reddit's moderation tools.
 
